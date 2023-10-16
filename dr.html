@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Привітання</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ff6f61, #ffdb58);
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+
+        h1, p, footer {
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 0 auto;
+            color: transparent;
+            animation-duration: 3s; /* Загальна тривалість анімації */
+            animation-timing-function: steps(50, end); /* Кількість кроків для кожного символу */
+            animation-fill-mode: forwards; /* Залишає текст, коли анімація завершена */
+        }
+
+        h1 {
+            font-size: 2em;
+            animation-name: typingH1;
+        }
+
+        p {
+            font-size: 1.2em;
+            animation-name: typingP;
+        }
+
+        footer {
+            font-style: italic;
+            font-size: 0.8em;
+            animation-name: typingFooter;
+        }
+
+        @keyframes typingH1 {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes typingP {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes typingFooter {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Дорога моя заєнька, моє сонце, мій промінчик</h1>
+    <p>Я хочу привітати тебе з твоїм прекрасним днем, з твоїм днем народження, в цей день з'явилася на свій найпрекрасніша дівчина яку я коли небудь бачив</p>
+    <p>В цей прекрасний день я хочу побажати тобі щастя, здоров'я, терпіння, сміливості, вірності, багатства, і найголовніше любові</p>
+    <p>З ЛЮБОВ'Ю ВІД ІГОРЮНІ)</p>
+</body>
+</html>
